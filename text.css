@@ -1,0 +1,265 @@
+/*去除所有元素的内外边距*/
+*{padding:0px;margin:0px}
+/*body样式*/
+body{
+	overflow:hidden;
+}
+.box{
+	border:none;
+	width:98%;
+	height:100%;
+	margin:0px auto;
+	overflow:hidden;
+}
+/*上半部分样式*/
+.box1{
+	border:none;
+	overflow:hidden;
+}
+.box2{
+	border-bottom:1px solid #ccc;
+	overflow:hidden;
+}
+/*影子网页音乐样式*/
+.yingzi{
+	float:left;
+	border:none;
+	font-size:0.6em;
+	font-family:楷体;
+	text-align:left;
+	line-height:200%;
+}
+/*日期时间样式*/
+.clock{	
+	float:right;
+	border:none;
+	text-align:center;
+	/*background-color:#ff99ff;*/
+	font-size:0.6em;
+	font-family:楷体;
+	line-height:200%;
+	/*overflow:hidden的设置是为了防止内容超出容器或者产生自动换行，这样就达不到垂直居中效果了*/
+	overflow:hidden; 
+}
+/*晚上好样式*/
+.sh{
+	float:right;
+	font-family:楷体;
+	font-size:0.6em;
+	line-height:200%;
+}
+/*陈慧娴演唱会样式*/
+.p1{
+	float:left;
+	border:none;
+	color:#ff99cc;
+	font-size:1.3em;
+	font-family:楷体;
+	font-weight:bold;
+	padding-left:9%;
+	padding-top:6%;
+	line-height:200%;
+}
+/*顺序播放盒子样式*/
+.box3{
+	display:none;
+	border:none;
+	overflow:hidden;
+}
+/*顺序播放、随机播放、循环播放样式*/
+.input2{
+	font-size:1em;
+	font-family:楷体;
+}
+/*播放器样式*/
+.box4{
+	border:none;
+	width:98%;
+	overflow:auto;
+}
+audio{
+	width:470px;
+}
+/*歌曲名称样式*/
+.box5{
+	border-bottom:1px solid #ccc;
+	color:#ff99cc;
+	font-family:楷体;
+	font-weight:bold;
+	font-size:1em;
+	display:inline-block;
+}
+/*歌曲列表样式*/
+.box6{
+	border:none;
+	display:none;
+	width:300px;
+	height:100px;
+	line-height:200%;
+	text-align:justify;
+    text-justify:inter-ideograph;/*IE*/
+	overflow:auto;
+}
+.span{
+	color:#ff99cc;
+	font-size:0.8em;
+	font-family:楷体;
+	font-weight:bold;
+}
+
+
+
+
+/*下半部分样式*/
+.box01{
+	border:none;
+	overflow:hidden;
+}
+.box02{
+	display:none;
+	float:left;
+	border:none;
+}
+.td01{
+	font-size:0.8em;
+	text-align:center;
+	width:20%;
+}
+.td02{
+	text-align:center;
+	width:40%;
+}
+.td03{
+	font-size:0.8em;
+	color:gray;
+	text-align:center;
+	font-family:楷体;
+}
+/*文本输入框样式*/
+.input01{
+	border:1px solid #ccc;
+	font-size:0.8em;
+	height:90%;
+	width:90%;
+}
+.input02{
+	font-size:1.3em;
+	font-weight:bold;
+	height:90%;
+	width:90%;
+	border:none;
+}
+/*网页计时器盒子样式*/
+.p01{
+	border:none;
+	display:none;
+	width:100%;
+}
+/*网页计时器内容样式*/
+.p02{
+	display:none;
+	border-bottom:1px solid #ccc;
+	width:100%;
+	font-size:1.5em;
+	font-family:楷体;
+	text-align:center;
+}
+/*陈慧娴简介样式*/
+.p03{
+	border:none;
+	display:none;  
+	position:absolute;  
+	top:0%;  
+	left:0%;
+	width:100%;
+	height:100%;
+	color:#ff99cc;
+	background-color:white;  
+	font-family:楷体;
+	line-height:200%;
+	text-align:center;
+	overflow:auto;
+	z-index:1; 
+}
+/*黑色画面样式*/
+/*.black_overlay{ 
+	display:none;  
+	position:absolute;  
+	top:0%;  
+	left:0%;  
+	width:0%;  
+	height:0%;  
+	background-color:black;  
+	z-index:1001;  
+	-moz-opacity:0.8;  
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}*/
+table{
+	height:200px;
+}
+input{
+	border:none;
+	font-size:1.1em;
+	font-family:楷体;
+	padding:1%;
+}
+a{	
+	cursor:default;
+	font-size:1em;
+	font-weight:bold;
+	font-family:楷体;
+	color:green;
+	text-decoration:none;
+	display:inline-block;
+}
+a:hover{
+	color:red;
+}
+.vo{
+	color:#ff99cc;
+	font-size:1.1em;
+}
+.file{
+	padding:0px;
+	margin:0px;
+	border:none;
+}
+.iframe{
+	border:1px solid #ccc;
+	width:50%;
+	height:80px;
+}
+.songLab{
+	display:block;
+}
+.text{
+	display:block;
+}
+
+
+
+.songMenuBox{
+	width:80%;
+}
+/*歌曲播放菜单*/
+.songPlayMenu{
+	font-size:1.1em;
+	margin:1% 0%;
+}
+/*歌曲列表工具菜单*/
+.songMenu{
+	border:none;
+	width:80%;
+	height:30%;
+	background-color:#ccc;
+	text-align:left;
+}
+/*歌曲列表菜单按钮*/
+.songMenuButton{
+	cursor:default;
+	color:#0066cc;
+	font-size:1.1em;
+	font-family:楷体;
+	margin-right:8%;
+}
